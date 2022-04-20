@@ -20,7 +20,7 @@ jobs:
         with:
           dotnet-version: '6.0.201'
       - name: Build
-        run: dotnet build ActionsKata
+        run: dotnet build
 
   test:
     runs-on: ubuntu-20.04
@@ -30,7 +30,7 @@ jobs:
         with:
           dotnet-version: '6.0.201'
       - name: Test
-        run: dotnet test ActionsKata
+        run: dotnet test
 
 
 
